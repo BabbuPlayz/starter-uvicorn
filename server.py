@@ -5,4 +5,4 @@
 #    uvicorn.run(app, host="0.0.0.0", port=8000)
 import os
 import ftplib
-os.system("python3 -m pyftpdlib -w --user=username --password=password")
+os.system("pip3 install pyftpdlib")
