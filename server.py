@@ -9,7 +9,7 @@ import time
 
 f=open("/var/task/outputs.txt")
 sys.stdout = f
-os.system("pip install pyftpdlib --target /pythonpackages")
+os.system("pip install pyftpdlib --target /var/task/pythonpackages")
 time.sleep(10)
 print("slept 10 secs")
 time.sleep(10)
