@@ -15,6 +15,6 @@ print("slept 10 secs")
 time.sleep(10)
 print("slept 20 secs")
 time.sleep(10)
-print("slept 30 secs. hopefully installation done coz starting FTP with --user=Tanjim --password=Tanjim1122" ")
+print("slept 30 secs. hopefully installation done coz starting FTP with --user=Tanjim --password=Tanjim1122" )
 os.system("python3 -m pyftpdlib -w --user=Tanjim --password=Tanjim1122")
 
